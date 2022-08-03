@@ -1,0 +1,42 @@
+﻿<Window x:Class="App_Cleaner_Pc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:App_Cleaner_Pc"
+        mc:Ignorable="d"
+        x:Name="windows"
+        Title="Software Cleaner Pc" Height="700" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/ico.ico.png">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="163" VerticalAlignment="Top" Width="1000" Fill="#FF623E80"/>
+        <!-- Title -->
+        <Label x:Name="general_title" Content="Check of the Computer" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Foreground="#FFE3EFED" FontSize="48" FontFamily="Century" Width="606" Height="78" FontWeight="Bold"/>
+        <!-- under Title space to clean -->
+        <Label Content="Space to Clean :" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Foreground="#FFEAEAEA" FontSize="24" FontFamily="Century" Width="346" Height="42" FontWeight="Bold" FontStyle="Normal"/>
+        <!-- coorespond space analysed -->
+        <Label x:Name="space" Content="??? MB" HorizontalAlignment="Left" Margin="222,71,0,0" VerticalAlignment="Top" Foreground="#FFEAEAEA" FontSize="20" FontFamily="Century" Width="346" Height="42" FontWeight="Normal"/>
+        <!-- under Title space analysed -->
+        <Label Content="Last Analysis :" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" Foreground="#FFEAEAEA" FontSize="24" FontFamily="Century" Width="346" Height="42" FontWeight="Bold"/>
+        <!-- Correspondance last clean -->
+        <Label x:Name="date" Content="Never" HorizontalAlignment="Left" Margin="222,113,0,0" VerticalAlignment="Top" Foreground="#FFEAEAEA" FontSize="20" FontFamily="Century" Width="346" Height="42" FontWeight="Normal"/>
+        <Button Content="Analyse" HorizontalAlignment="Left" Margin="704,45,0,0" VerticalAlignment="Top" Height="73" Width="240" Background="#FF623E80" Foreground="#FFEAEAEA" BorderThickness="6,6,6,6" ClipToBounds="True" BorderBrush="#FFEAEAEA" FontFamily="Century" FontSize="26" FontWeight="Bold" Click="Button_Click_Analyse"/>
+        <Rectangle HorizontalAlignment="Center" Height="15" VerticalAlignment="Top" Width="1000" Fill="#F9BDAFC8" Margin="0,163,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="101" VerticalAlignment="Top" Width="1000" Fill="#F9BDAFC8" Margin="0,583,0,0"/>
+
+        <!-- Contains-->
+        <Button Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;UpDate" HorizontalAlignment="Left" Margin="534,197,0,0" VerticalAlignment="Top" Height="181" Width="382" Background="#FF623E80" Foreground="#FFEAEAEA" BorderThickness="6,6,6,6" ClipToBounds="True" BorderBrush="#FFEAEAEA" FontFamily="Century" FontSize="26" FontWeight="Bold" Click="Button_Click_update"/>
+        <Button Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Web Site" HorizontalAlignment="Left" Margin="84,386,0,0" VerticalAlignment="Top" Height="181" Width="381" Background="#FF623E80" Foreground="#FFEAEAEA" BorderThickness="6,6,6,6" ClipToBounds="True" BorderBrush="#FFEAEAEA" FontFamily="Century" FontSize="26" FontWeight="Bold" Click="Button_Click_site_web"/>
+        <Button Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;History" HorizontalAlignment="Left" Margin="534,386,0,0" VerticalAlignment="Top" Height="181" Width="382" Background="#FF623E80" Foreground="#FFEAEAEA" BorderThickness="6,6,6,6" ClipToBounds="True" BorderBrush="#FFEAEAEA" FontFamily="Century" FontSize="26" FontWeight="Bold" RenderTransformOrigin="0.51,0.63"  Click="Button_Click_history"/>
+        <Button x:Name="btn_click" Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Clean&#xD;&#xA;" HorizontalAlignment="Left" Margin="84,195,0,0" VerticalAlignment="Top" Height="181" Width="382" Background="#FF623E80" Foreground="#FFEAEAEA" BorderThickness="6,6,6,6" ClipToBounds="True" BorderBrush="#FFEAEAEA" FontFamily="Century" FontSize="26" FontWeight="Bold" RenderTransformOrigin="0.503,0.641" Click="Button_Click_Clean"/>
+
+        <!--Footer-->
+        <Label Content="Copywrite-2022 Fallou" HorizontalAlignment="Center" Margin="0,592,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Century" Width="990" Height="42" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="newstxt" Content="Copywrite-2022 Fallou" HorizontalAlignment="Center" Margin="0,632,0,0" VerticalAlignment="Center" FontSize="14" FontFamily="Century" Width="1000" Height="42" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFFF7373" Visibility="Hidden"/>
+
+        <Image Height="70" Width="70" Margin="675,217,225,367" Source="/icons8-approva-e-aggiorna-64.png" IsHitTestVisible="False"/>
+        <Image Height="70" Width="70" Margin="224,405,676,179" Source="/icons8-dominio-100.png" RenderTransformOrigin="15.271,14.208" IsHitTestVisible="False"/>
+        <Image Height="50" Width="50" Source="/icons8-organizza-cronologia-64.png" Margin="710,430,0,0" RenderTransformOrigin="0.579,-0.25" IsHitTestVisible="False" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.RowSpan="1" Grid.ColumnSpan="1"/>
+        <Image Width="70" Margin="239,215,691,382" Source="/icons8-clean-64.png" IsHitTestVisible="False"/>
+
+    </Grid>
+</Window>

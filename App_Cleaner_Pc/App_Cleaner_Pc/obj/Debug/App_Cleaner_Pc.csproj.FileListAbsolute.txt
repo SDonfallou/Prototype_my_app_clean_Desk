@@ -1,0 +1,16 @@
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\bin\Debug\App_Cleaner_Pc.exe.config
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\bin\Debug\App_Cleaner_Pc.exe
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\bin\Debug\App_Cleaner_Pc.pdb
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.csproj.AssemblyReference.cache
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.csproj.SuggestedBindingRedirects.cache
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\MainWindow.g.cs
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App.g.cs
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc_MarkupCompile.cache
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc_MarkupCompile.lref
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\MainWindow.baml
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.g.resources
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.Properties.Resources.resources
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.csproj.GenerateResource.cache
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.csproj.CoreCompileInputs.cache
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.exe
+C:\Users\FALLOU\OneDrive\Bureau\Appcleaner\App_Cleaner_Pc\App_Cleaner_Pc\obj\Debug\App_Cleaner_Pc.pdb
